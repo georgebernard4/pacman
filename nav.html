@@ -1,45 +1,51 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <div class="container-fluid">
-    <a class="navbar-brand mb-0 h1" href="#">George Bernard</a>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary" style="z-index: 10;">
+
+    <div><a class="navbar-brand sm-px-1"  style="font-family: robotoSlab, serif" href="https://georgebernard4.github.io/">george bernard.io</a></div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Welcome!</a>
+          <a class="nav-link " aria-current="page" style="font-family: robotoSlab, serif"  href="#">Welcome!</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Resume</a>
+          <a class="nav-link" href="#">About me...</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Sample Programs
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <div class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Work Examples<span class="caret"></span>
+          </div>
+          <ul class="dropdown-menu dropdown-menu-primary" aria-labelledby="navbarDropdown">
             
-            <li><a class="dropdown-item" href="#">Featured Program Webpages</a></li>
-            <li><a class="dropdown-item" href="#">Pacman - html & Js animation</a></li>
-            <li><a class="dropdown-item" href="#">Bustracker -Mapbox.com & MBTA API's</a></li>
-            <li><a class="dropdown-item" href="#">Eyes Follow Mouse - html, Js, and Css</a></li>
+            <li><a class="dropdown-item" href="#">webpages</a></li>
+            <li><a class="dropdown-item" href="https://georgebernard4.github.io/pacman/"> &nbsp;&nbsp;&#x2022; pacman</a></li>
+            <li><a class="dropdown-item" href="https://georgebernard4.github.io/realtimeBusTracker/">  &nbsp;&nbsp;&#x2022; bustracker</a></li>
+            <li><a class="dropdown-item text-primary font-italic text-bolder" href="https://georgebernard4.github.io/eyes/">&nbsp;&nbsp;&#x2022; <em1>eyes</em1></a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Code Repositories</a></li>
+            <li><a class="dropdown-item" href="https://github.com/georgebernard4?tab=repositories">repos</a></li>
+            <li><a class="dropdown-item" href="https://github.com/georgebernard4/pacman">&nbsp;&nbsp;&#x2022; pacman</a></li>
+            <li><a class="dropdown-item" href="https://github.com/georgebernard4/realtimeBusTracker">&nbsp;&nbsp;&#x2022; bustracker</a></li>
+            <li><a class="dropdown-item" href="https://github.com/georgebernard4/eyes">&nbsp;&nbsp;&#x2022; eyes</a></li>
+            <li><a class="dropdown-item" href="https://github.com/georgebernard4?tab=repositories">&nbsp;&nbsp;&#x2022; all</a></li>
           </ul>
         </li>
-        <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-          Contact
-        </a>
+        <li class="nav-item">
+          <a class="nav-link " data-bs-toggle="offcanvas" href="#Contact" role="button" aria-controls="contact">Contact =></a>
+        </li>
+        
+
+        
+
+
       </button>
     </div>
-  </div>
 </ul>
 </div>
 </div>
 </nav>
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+<div class="offcanvas offcanvas-end" tabindex="-1" id="Contact" aria-labelledby="Contact">
   <div class="offcanvas-header">
     <h5 class="offcanvas-title" id="offcanvasExampleLabel">Contact George</h5>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -56,3 +62,24 @@
     </div>
   </div>
 </div>
+<style>
+  .navbar-brand, .navbar-nav > li {
+    margin-left:30px;
+    margin-right:30px;}
+    /* .navbar-nav.open.dropdown-menu {
+    background-color: blue;
+  }   */
+  /* .frontLetter{
+    font-style:italic;
+    font: size 1.3em;
+  } */
+  /* .roboto {font-family: 'Roboto', sans-serif;}
+  .robotoSlab{font-family: 'Roboto Slab', serif;} */
+
+
+ .italic {font-style: italic}
+ /* attributes to add to dropdown active */
+ /* text-primary italic text-bolder */
+
+  
+</style>
