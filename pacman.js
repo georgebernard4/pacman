@@ -412,7 +412,7 @@ function pacManAngleTester( numberOfCircles, mouthsPerRotation, rotationsToFullC
 // //rotationsToFullCircle negative for backwards rotations
 // //pacManAngleTester( numberOfCircles, mouthsPerRotation, rotationsToFullCircle, startAngle, movesPerSecond)
 // pacManAngleTester(                 4,                 10,                    -8,          0,              15);
-
+//Run no longer a function I need to fix this
 function pacManTestWaiter(startAngle,endAngle, rotationIncrement, msBetweenMoves, mouthsPerRotation){
   if(rotationIncrement > 0){
     if(startAngle > endAngle){return};
@@ -435,6 +435,7 @@ function pacManTestWaiter(startAngle,endAngle, rotationIncrement, msBetweenMoves
   }
 }
 
+//Run no longer a function
 //mouthmover will call itself and number of times then call waiter, 
 function mouthMover(startAngle, endAngle, rotationIncrement, msBetweenMoves, mouthsPerRotation, mouthCount){
   Run();

@@ -1,0 +1,7 @@
+.pacish {
+  position: absolute;
+}
+/* Nav-Bar at index 2 */
+.pacOnTop{
+  z-index: 3;
+}
